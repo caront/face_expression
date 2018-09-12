@@ -18,11 +18,7 @@ class Models():
         pass
 
     @abc.abstractclassmethod
-    def exe_frame(self)
-        pass
-
-    @abc.abstractclassmethod
-    def exe_image(self, image_path):
+    def predict(self, face):
         pass
 
     def compile(self, optimizer, loss, metrics):
